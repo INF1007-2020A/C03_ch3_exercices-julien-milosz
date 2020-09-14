@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# BANANE TEST 123
-
 import math
 
 
@@ -13,7 +11,7 @@ def average(a: float, b: float, c: float) -> float:
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
     return ((angle_degs + (angle_mins/60) + (angle_secs/3600))*(math.pi/180))
 
-
+c
 def to_degrees(angle_rads: float) -> tuple:
     
     x = angle_rads * (180/math.pi)
